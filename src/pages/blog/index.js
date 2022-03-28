@@ -26,7 +26,7 @@ export const query = graphql`
       nodes {
         frontmatter {
           title
-          date(formatString: "MMMM DD, YYYY")
+          date(locale: "es", formatString: "MMMM DD, YYYY")
         }
         id
         slug
